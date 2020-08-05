@@ -1,11 +1,11 @@
 variable "aws_region" {
   type    = string
-  default = "us-west-1"
+  default = "us-west-2"
 }
 
 variable "db_table_name" {
   type    = string
-  default = "terraform-learn"
+  default = "bwnuts-terraform-learn"
 }
 
 variable "db_read_capacity" {
